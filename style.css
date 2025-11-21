@@ -8,6 +8,11 @@
     display: flex;
 }
 
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
 #background-image {
     height: 100vh;
     width: 30vw;
