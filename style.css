@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Norse;
+    src: url("Norse-Bold.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -108,13 +113,13 @@ input:focus {
 }
 
 .logo-container {
-    height: 100px;
-    min-width: 100%;
     display: flex;
+    min-width: 100%;
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, .6);
     margin-top: 35%;
+    padding: 16px;
 }
 
 .side-background > p {
@@ -128,6 +133,7 @@ input:focus {
 }
 
 #logo-text {
-    font-size: 50px;
+    font-size: 5rem;
     color: white;
+    font-family: Norse, sans-serif;
 }
